@@ -3,24 +3,26 @@ A player has at least one character
 
 Character requirements:
 A character has a class
-A character has characteristics
 A character has items
++A character has characteristics (In first place RaidManager is for loot management, maybe for v1.1 ?)
++A character has abilities
 
 Guild requirements:
 A guild has characters
 A guild can have raid meetings
 
-Raids requirements:
+Raids requirements: (Raid or location ? in order to adapt for other games ?)
 Raid has loot (items)
 +Raid has equipments prerequisits
-
+_Raid has strategy (? Add steps ? Description ? Need more thinking)
 
 Characteristics requirements
 Characteristics has value
 Characteristics has a type
 
 Item requirements:
-Item has characteristics
++Item has characteristics (need to think about it because some game can have range of characteristics values)
++Item has abilities (? not in every game)
 
 Loot requirements:
 A loot is an item
@@ -28,3 +30,7 @@ A loot has a date
 A loot has a place
 A loot has a player id
 A loot has a raid id
+
+LootMaster capabilites:
+LootMaster add loot in raid meeting
+LootMaster assign loot to raid player

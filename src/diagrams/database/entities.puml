@@ -19,6 +19,8 @@ entity character {
     characterId : GUID
     name : string
     role : string
+    --
+    characterClassId : GUID <<FK>>
 }
 
 entity item {
@@ -30,13 +32,32 @@ entity itemCharacteristic {
     itemCharacteristicId : GUID
 }
 
-entity playerCharacteristic {
-    playerCharacteristicId : GUID
+entity abilityScore {
+    abilityScoreId : GUID
 }
 
 entity raid {
     raidId : GUID
     name : string
 }
+
+entity characterClass {
+    characterClassId : GUID
+    Name : string
+    Game : string
+}
+
+entity raidMeeting {
+    raidMeetingId
+    raidId : GUID
+    startDate : datatime
+    endDate : datatime
+}
+
+
+player ||--o{ character
+character ||--|| abilityScore
+character ||--|| characterClass
+
 
 @enduml

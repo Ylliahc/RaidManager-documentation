@@ -1,0 +1,4 @@
+Legend:
++ : means bonus, not mandatory for first version
+_ : think about it
+() : comments
