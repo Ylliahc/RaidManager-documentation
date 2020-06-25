@@ -1,0 +1,10 @@
+= RaidManager Documentation
+Doc Writer <ylliahc@hotmail.fr>
+v1.0, 2020-06-25
+:toc:
+
+
+== Purpose
+
+RaidManager is intended to help guilds in looting management.
+His prior use is for WoW but it's designed for any game with this kind of loot of management.

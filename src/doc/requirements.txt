@@ -1,0 +1,30 @@
+Player requirements:
+A player has at least one character
+
+Character requirements:
+A character has a class
+A character has characteristics
+A character has items
+
+Guild requirements:
+A guild has characters
+A guild can have raid meetings
+
+Raids requirements:
+Raid has loot (items)
++Raid has equipments prerequisits
+
+
+Characteristics requirements
+Characteristics has value
+Characteristics has a type
+
+Item requirements:
+Item has characteristics
+
+Loot requirements:
+A loot is an item
+A loot has a date
+A loot has a place
+A loot has a player id
+A loot has a raid id

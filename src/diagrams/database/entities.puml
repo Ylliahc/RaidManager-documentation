@@ -1,0 +1,42 @@
+@startuml database_entities
+
+entity game {
+    gameId : GUID
+    name
+}
+
+entity guild {
+    guildId : GUID
+    name : string
+}
+
+entity player {
+    playerId: GUID
+    name : string
+}
+
+entity character {
+    characterId : GUID
+    name : string
+    role : string
+}
+
+entity item {
+    itemId : GUID
+    name :string
+}
+
+entity itemCharacteristic {
+    itemCharacteristicId : GUID
+}
+
+entity playerCharacteristic {
+    playerCharacteristicId : GUID
+}
+
+entity raid {
+    raidId : GUID
+    name : string
+}
+
+@enduml
