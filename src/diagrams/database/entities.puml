@@ -58,6 +58,9 @@ entity raidMeeting {
 player ||--o{ character
 character ||--|| abilityScore
 character ||--|| characterClass
+guild ||--o{ character
+raidMeeting }o--|| guild
+raidMeeting }o--|| raid
 
 
 @enduml

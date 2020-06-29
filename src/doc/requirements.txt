@@ -3,7 +3,9 @@ A player has at least one character
 
 Character requirements:
 A character has a class
++A character has a class specialisation (tank, dps, heal, useful to know wich item a charcater need)
 A character has items
+A character has at least one guild role
 +A character has characteristics (In first place RaidManager is for loot management, maybe for v1.1 ?)
 +A character has abilities
 
