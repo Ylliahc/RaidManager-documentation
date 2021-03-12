@@ -7,4 +7,11 @@ v1.0, 2020-06-25
 == Purpose
 
 RaidManager is intended to help guilds in looting management.
-His prior use is for WoW but it's designed for any game with this kind of loot of management.
+His prior use is for WoW but it's designed for any game with this kind of loot management.
+
+== Features
+
+- Give a way for players to group into a guild, recreate their organization, and plan meetings (raid, dungeon, farm day ... whatever)
+- Guild managers can create or validate meetings.
+- Every member can propose a meeting.
+- It is possible to add external members in the meeting (possibly unknown from RaidManager application).
